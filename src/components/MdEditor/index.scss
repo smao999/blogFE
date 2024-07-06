@@ -1,0 +1,13 @@
+.bytemd {
+  height: 100%;
+  border-radius: 6px;
+
+  .bytemd-toolbar {
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+  }
+}
+
+.rich-editor > div {
+  height: 100%;
+}
