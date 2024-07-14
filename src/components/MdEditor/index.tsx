@@ -26,7 +26,7 @@ const MdEditor: FC<IMdEditor> = (props) => {
           value={value}
           plugins={plugins}
           onChange={v => onChange(v)}
-        //   locale={zh}
+          locale={zh}
           uploadImages={(e: File[]) => {
             return new Promise(res => {
               console.log(e)

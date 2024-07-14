@@ -21,7 +21,7 @@ const routes:Array<RouteObject & {label?: string, key?: string, icon?: ReactNode
     },
     {
         path: '/file',
-        label: '首页',
+        label: '编辑',
         icon: '',
         element: <Files />
     },

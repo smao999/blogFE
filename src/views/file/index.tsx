@@ -55,7 +55,7 @@ const File = memo(() => {
                         />
                       }
                       onConfirm={_ => {
-                        console.log(newCategory)
+                        service.post('/blog/category',{name: newCategory})
                       }}
                       onCancel={_ => setNewCategory('')}
                     >
