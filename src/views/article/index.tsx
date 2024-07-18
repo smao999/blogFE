@@ -16,7 +16,7 @@ const About: FC<IAbout> = () => {
 
   return (
     <div>
-      <Button onClick={getContent}>获取文章</Button>
+      <Button onClick={getContent}>获取文章1</Button>
       <div className="mce-content-body">{content}</div>
     </div>
 )
