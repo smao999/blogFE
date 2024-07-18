@@ -16,7 +16,7 @@ COPY . .
 RUN pnpm run build
 
 # production stage
-FROM nginx:stable as production-stage
+FROM nginx:latest
 
 COPY --from=build-stage /app/dist /usr/share/nginx/html
 
